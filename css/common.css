@@ -1,0 +1,61 @@
+/*公共样式*/
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+/*版心*/
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+.style-red{
+	color: #c81623;
+}
+.spacer{
+	width: 1px;
+	height: 12px;
+	background-color: #666;
+	margin: 9px 12px 0;
+}
+/* 顶部快捷导航样式 */
+.shortcut{
+	height: 31px;
+	background-color: #f1f1f1;
+	line-height: 31px;
+}
+.shortcut li{
+	float: left;
+}
+.shortcut .fr li i{
+line-height: 26px;
+vertical-align: middle;
+}
+/* header开始 */
+.header{
+	height: 105px;
+	position: relative;
+	background-color: pink;
+}
+.logo{
+	width: 175px;
+	height: 56px;
+	position: absolute;
+	left: 0;
+	top: 25px;
+}
+.logo a{
+	display: block;
+	width: 175px;
+	height: 56px;
+	background:url(../img/logo.png);
+	text-indent: -9999px;
+	overflow: hidden;
+}
+.search{
+	position: absolute;
+	top: 25px;
+	left: 10
+}
+/* header结束 */
