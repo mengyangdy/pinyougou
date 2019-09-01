@@ -1,0 +1,54 @@
+/* 首页的样式 */
+.main{
+  width: 980px;
+  height: 455px;
+  margin-left: 219px;
+  margin-top: 10px;
+}
+.focus{
+  width: 720px;
+  height: 455px;
+  background-color: blue;
+  position: relative;
+}
+.focus ul li img{
+  width: 720px;
+  height: 455px;
+}
+.newsflash{
+  width: 250px;
+  height: 455px;
+  background-color: green;
+}
+.focus>a{
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  width: 24px;
+  height: 40px;
+  background: rgba(0, 0, 0, .3);
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+}
+.focus a:nth-child(2){
+  right: 0;
+}
+.focus ol{
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.focus ol li{
+width: 8px;
+height: 8px;
+border-radius: 50%;
+float: left;
+margin: 0 3px;
+border: 1px solid red;
+}
+.focus ol li:hover{
+  background: blue;
+  cursor: pointer;
+}
