@@ -1,4 +1,4 @@
-﻿/*清除元素默认的内外边距  */
+/*清除元素默认的内外边距  */
 * {
     margin: 0;
     padding: 0
@@ -34,6 +34,7 @@ a:hover {
 button,
 input {
     font-family: 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+		outline: none;
 }
 
 body {

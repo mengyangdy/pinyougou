@@ -36,7 +36,6 @@ vertical-align: middle;
 .header{
 	height: 105px;
 	position: relative;
-	background-color: pink;
 }
 .logo{
 	width: 175px;
@@ -56,6 +55,186 @@ vertical-align: middle;
 .search{
 	position: absolute;
 	top: 25px;
-	left: 10
+	left: 348px;
+}
+.search .text{
+	float: left;
+	width: 445px;
+	height: 32px;
+	border: 2px solid #b1191a;
+	padding-left: 10px;
+	color: #ccc;
+}
+.search .btn{
+	float: left;
+	width: 82px;
+	height: 36px;
+	background-color: #B1191A;
+	border: none;
+	font-size: 16px;
+	color: #FFF;
+}
+.hotwords{
+	position: absolute;
+	left: 348px;
+	top: 65px;
+}
+.hotwords a{
+	margin: 0 12px;
+}
+.shopcar{
+	width: 138px;
+	height: 34px;
+	border: 1px solid #dfdfdf;
+	background: #f7f7f7;
+	position: absolute;
+	right: 64px;
+	top: 25px;
+	line-height: 34px;
+	text-align: center;
+	font-size: 14px;
+}
+.icon-gouwuche{
+	color: red;
+}
+.shopcar .count{
+	position: absolute;
+	top: -5px;
+	left: 100px;
+	background-color: #e60012;
+	height: 14px;
+	line-height: 14px;
+	color: #CCCCCC;
+	padding: 0 3px;
+	border-radius: 50% 50% 50% 0;
 }
 /* header结束 */
+/* nav开始 */
+.nav{
+	height: 45px;
+	border-bottom: 2px solid #B1191A;
+}
+.nav .dropdown{
+	width: 209px;
+	height: 45px;
+	background-color: pink;
+}
+.dropdown .dt{
+	height: 100%;
+	background-color: #B1191A;
+	font-size: 16px;
+	color: #CCCCCC;
+	text-align: center;
+	line-height: 45px;
+}
+.dropdown .dd{
+	height: 465px;
+	background-color: #C81623;
+	margin-top: 2px;
+}
+.dropdown .dd ul li{
+	height: 31px;
+	line-height: 31px;
+	margin-left: 1px;
+	padding:0 10px;
+}
+.dropdown .dd ul li:hover{
+	background-color: #fff;
+	
+}
+.dropdown .dd ul li:hover a{
+	color: red;
+}
+.dropdown .dd ul li a{
+	color: #fff;
+	font-size: 16px;
+}
+.dropdown .dd ul li i{
+	font-size: 18px;
+	color: #fff;
+	float: right;
+}
+.navitems{
+	margin-left: 10px;
+}
+.navitems li{
+	float: left;
+}
+.navitems li a{
+	display: block;
+	height: 45px;
+	line-height: 45px;
+	padding: 0 25px;
+	font-size: 16px;
+}
+/* nav结束 */
+/* footer开始 */
+.footer{
+	height: 386px;
+	background-color: #f5f5f5;
+	padding-top: 30px;
+}
+.moudle_service{
+	height: 79px;
+	border: 1px solid #ccc;
+}
+.moudle_service li{
+	width: 239.6px;
+	height: 79px;
+	float: left;
+}
+.moudle_service li i{
+	width: 52px;
+	height: 50px;
+	float: left;
+	margin-left: 35px;
+}
+.moudle_service .zheng{
+background: url(../img/icons.png) -253px -3px;
+}
+.moudle_service .title{
+	float: left;
+	margin-left: 5px;
+}
+.moudle_service .title h5{
+	margin: 5px 0;
+}
+.moudle_service .kuai{
+	background: url(../img/icons.png) -252px -55px;
+}
+.moudle_service .bao{
+	background: url(../img/icons.png) -257px -105px;
+}
+.moudle_help{
+	height: 187px;
+	background-color: pink;
+	border: 1px solid #ccc;
+}
+.moudle_help .item{
+	width: 149px;
+	padding: 20px 0 0 50px;
+	float: left;
+}
+.moudle_help dt{
+	height: 25px;
+	font-size: 16px;
+}
+.moudle_help dd{
+	height: 22px;
+}
+.moudle_help .item_app dt,p{
+	padding-left: 10px;
+}
+.moudle_help .item_app img{
+	margin:7px 0;
+}
+.copyright{
+	text-align: center;
+	}
+.copyright .link{
+	margin: 15px 0 20px ;
+}
+.copyright .info{
+	line-height: 25px;
+}
+/* footer结束 */
