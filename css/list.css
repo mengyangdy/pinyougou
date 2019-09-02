@@ -35,11 +35,96 @@
 .sk_bd ul li{
 	width: 288px;
 	height: 458px;
-	border: 1px solid #e12228;
+	border: 1px solid transparent;
+
+	position: relative;
+	float: left;
+	margin:0 12px 10px 0;
+
+}
+.sk_bd ul li:hover{
+border: 1px solid #e12228;
+}
+.sk_bd ul li:nth-child(4n){
+	margin-right: 0;
 }
 .sk_goods_title{
 	font-size: 14px;
 	color: #666;
 	font-weight: normal;
-	padding: 10px 10px 0;
+	padding: 10px 10px 10px;
+}
+.sk_goods_price{
+	padding: 0 10px;
+}
+.sk_goods_price em{
+color: #e60012;
+font-size: 22px;
+}
+.sk_goods_price del{
+	font-size: 14px;
+	font-weight: 700;
+	color: #a4a4a4;
+}
+.sk_goods_progress{
+padding: 0 10px;
+}
+.bar{
+	display: inline-block;
+	width: 130px;
+	height: 10px;
+	border: 1px solid #b1191a;
+	vertical-align: middle;
+	border-radius: 5px;
+	margin: 0 5px;
+}
+.bar_in{
+	width: 87%;
+	height: 10px;
+	background-color: #f24349;
+}
+.sk_goods_progress em,.sk_goods_progress i{
+	color: #f24349;
+}
+.sk_goods_buy{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #b1191a;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+}
+.page{
+	text-align: center;
+	margin: 40px 0;
+}
+.page_num a{
+	width: 36px;
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #ccc;
+	background: #f7f7f7;
+	display: inline-block;
+}
+.page_num a:first-child,
+.page_num a:last-child{
+	width: 83px;
+}
+.page_num a.current,
+.page_num a.dotted{
+	border: 1px solid transparent;
+	background-color:transparent;
+}
+.page_skip input{
+	width: 46px;
+	height: 30px;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+.page_skip button{
+	width: 54px;
+	height: 32px;
 }
