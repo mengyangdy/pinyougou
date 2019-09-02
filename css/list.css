@@ -1,0 +1,45 @@
+.sk{
+	height: 32px;
+	border-left: 1px solid #b1191a;
+	position: absolute;
+	top: 40px;
+	left: 185px;
+	padding: 5px 0 0 15px;
+	
+}
+.sk_list li{
+	float: left;
+	line-height: 45px;
+	margin: 0 30px;
+}
+.sk_list li a{
+	font-size: 16px;
+	color: #000;
+	font-weight: 700;
+}
+.sk_list li a:hover{
+	color: #C81623;
+}
+.sk_concent li{
+	float: left;
+	line-height: 45px;
+	margin: 0 20px;
+}
+.sk_concent li a{
+	font-size: 14px;
+	font-weight: 700;
+}
+.sk_hd{
+	margin-bottom: 25px;
+}
+.sk_bd ul li{
+	width: 288px;
+	height: 458px;
+	border: 1px solid #e12228;
+}
+.sk_goods_title{
+	font-size: 14px;
+	color: #666;
+	font-weight: normal;
+	padding: 10px 10px 0;
+}
